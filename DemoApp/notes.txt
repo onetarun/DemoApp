@@ -1,0 +1,6 @@
+﻿Verbose--0
+Information-1
+
+__logger.LogError("");
+_logger.LogDebug("");
+_looger.LogInformation("");

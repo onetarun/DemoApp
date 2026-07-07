@@ -4,6 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/ec67c050-105d-4857-9c90-b06d5f04ba46/resourceGroups/evening-rg/providers/microsoft.insights/components/myeveningdemoapp</ApplicationInsightsResourceId>
+    <UserSecretsId>9d87dbc9-101e-4c37-9437-b20d90b5be13</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
